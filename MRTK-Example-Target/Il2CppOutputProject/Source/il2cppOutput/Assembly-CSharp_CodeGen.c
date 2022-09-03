@@ -1,0 +1,491 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnEnable()
+extern void GestureTester_OnEnable_m0140D4F607D27D42F445714D070CC7EADA275E24 (void);
+// 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureStarted(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureStarted_mC5EAB69C8E45DEAADDEDE6AFF002541DEA567EF4 (void);
+// 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureUpdated(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureUpdated_m347798A3925B8621FFC2001AB596113DD1126FB9 (void);
+// 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureUpdated(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector3>)
+extern void GestureTester_OnGestureUpdated_m2EA610219C9B8E64FA4881A0047B711EE938D3C9 (void);
+// 0x00000005 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCompleted(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureCompleted_m59097EC727BDF7D16BD4613D13602F7EAF071A6C (void);
+// 0x00000006 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCompleted(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector3>)
+extern void GestureTester_OnGestureCompleted_mF46CC248E670E08FAFC86FE6B94E2A488F179F4B (void);
+// 0x00000007 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCanceled(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureCanceled_m3A69BCC0830AA58A442D7F21423093C18ACE70BF (void);
+// 0x00000008 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::SetIndicator(UnityEngine.GameObject,System.String,UnityEngine.Material)
+extern void GestureTester_SetIndicator_mC10E281F42604E9478C157E2E1D6A10045789FDA (void);
+// 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::SetIndicator(UnityEngine.GameObject,System.String,UnityEngine.Material,UnityEngine.Vector3)
+extern void GestureTester_SetIndicator_mCE66488AB17DA7410AD184940079B68B013EDD63 (void);
+// 0x0000000A System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::ShowRails(UnityEngine.Vector3)
+extern void GestureTester_ShowRails_m503612C0788C264B5250059F23F4F267F6662C78 (void);
+// 0x0000000B System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::HideRails()
+extern void GestureTester_HideRails_mEF63845796950C93EF3A59BB7E9D9EB6B82192B9 (void);
+// 0x0000000C System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::.ctor()
+extern void GestureTester__ctor_mCA9059AE04A957A48F5E848BB37BC4FB1A5AD782 (void);
+// 0x0000000D System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::Awake()
+extern void GrabTouchExample_Awake_m193BA2448772C129BA391D7666A5373CA98EAD17 (void);
+// 0x0000000E System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputDown(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GrabTouchExample_OnInputDown_m417FCADFE22A4077392D9BA739D2512F10B07082 (void);
+// 0x0000000F System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputUp(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GrabTouchExample_OnInputUp_mE45E387F4A170A41B903F55FD919907F7B565729 (void);
+// 0x00000010 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputPressed(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<System.Single>)
+extern void GrabTouchExample_OnInputPressed_mF4E7F3B6EC150A2F545D9A48250766D6C437B103 (void);
+// 0x00000011 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnPositionInputChanged(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector2>)
+extern void GrabTouchExample_OnPositionInputChanged_m3EE2FA62C353397B71838DBD27177D96683AA8BF (void);
+// 0x00000012 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchCompleted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchCompleted_m3406627D2B847B7C11E69FE1FC865FF0883100ED (void);
+// 0x00000013 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchStarted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchStarted_m268297151E87C0A7610F699226A85D9C482DB8B7 (void);
+// 0x00000014 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchUpdated_m2E31C64A83F0D62F77FDD54E17E91A277589FE17 (void);
+// 0x00000015 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::.ctor()
+extern void GrabTouchExample__ctor_m6FFF0E748673903DFA2072F856F569ECDC1BBF6A (void);
+// 0x00000016 System.Void Microsoft.MixedReality.Toolkit.Examples.LeapMotionOrientationDisplay::.ctor()
+extern void LeapMotionOrientationDisplay__ctor_mC9E9FDEE213D10636277EF57AAA73C69CA0A9DA1 (void);
+// 0x00000017 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnEnable()
+extern void RotateWithPan_OnEnable_mFA342F4128FB0B7B1FBB2AF91ACAD08BF1B34AA1 (void);
+// 0x00000018 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnDisable()
+extern void RotateWithPan_OnDisable_m606981F1E173DE557743B647BAFCA2F3E2404600 (void);
+// 0x00000019 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanEnded(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanEnded_mE32C84EB617376128A1DAC0CC8DDB93DB07E9771 (void);
+// 0x0000001A System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanning(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanning_mA4F14593B410699C3C57A98E9257AE01D30347DC (void);
+// 0x0000001B System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanStarted(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanStarted_m9287DA1BA0DCCE934FFB17A57F4325B0F4D84F92 (void);
+// 0x0000001C System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::.ctor()
+extern void RotateWithPan__ctor_mA18E5BAD40CDA091610D697BE9FD1C8636A68EDE (void);
+// 0x0000001D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DebugTextOutput::SetTextWithTimestamp(System.String)
+extern void DebugTextOutput_SetTextWithTimestamp_mDF010EB22994E08515BD0D7168C5FD8A2A79D6C0 (void);
+// 0x0000001E System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DebugTextOutput::.ctor()
+extern void DebugTextOutput__ctor_mBA36C4F1E296266F1F198C5A87A3F2EA9AE9E201 (void);
+// 0x0000001F System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Awake()
+extern void DemoTouchButton_Awake_m1AF45B8901FCF6F00A529AEFCAE5506AE7555E02 (void);
+// 0x00000020 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerClicked(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerClicked_m38106C4F3F2F23FFAABB56CF0766EF297F233146 (void);
+// 0x00000021 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerDown(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDown_m04FED0E4EE50E1AB6CC2D0CCAA9D71AF60AA81E2 (void);
+// 0x00000022 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerDragged(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDragged_m26570F82DA89EF0030C2D3479EC625EEA95D168F (void);
+// 0x00000023 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerUp(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerUp_mBCA590EFE44F513F5E06F17D3ECD05DB64C421B2 (void);
+// 0x00000024 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::.ctor()
+extern void DemoTouchButton__ctor_m8C7E042730F36A15DCA22444DC001BC632B961CF (void);
+// 0x00000025 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Start()
+extern void HandInteractionTouch_Start_mEA26CFA5F9C0670533A9D81F9599ACAC2E884FBF (void);
+// 0x00000026 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchCompleted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchCompleted_m47DC3546E726537C9A52E0BF4AA9A24B7A83E0BB (void);
+// 0x00000027 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchStarted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchStarted_m0525055513F5ACD2DD7A2595F9288818A81D7881 (void);
+// 0x00000028 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mEA0B73C770EB3313E0F6F8B949086B2670C3BC2E (void);
+// 0x00000029 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::.ctor()
+extern void HandInteractionTouch__ctor_m95795EEB965D94E5EE65E4F18F8D1ADE174F6E10 (void);
+// 0x0000002A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouchRotate::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouchRotate_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_m23E672CF5654FB271122EB248DE6EEE7480CE0E9 (void);
+// 0x0000002B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouchRotate::.ctor()
+extern void HandInteractionTouchRotate__ctor_m04F2A1112ABDEFB18CC1D8CB81232B06D7AD8622 (void);
+// 0x0000002C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LaunchUri::Launch(System.String)
+extern void LaunchUri_Launch_mC659D1BDD2E134A84AA1791D4D44C87A2A901962 (void);
+// 0x0000002D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LaunchUri::.ctor()
+extern void LaunchUri__ctor_m32487E2888A148FCAD613C50117270B1293E3431 (void);
+// 0x0000002E System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LeapCoreAssetsDetector::Start()
+extern void LeapCoreAssetsDetector_Start_mC7AE99208F21C227403657D0886ACA11D32C2732 (void);
+// 0x0000002F System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LeapCoreAssetsDetector::.ctor()
+extern void LeapCoreAssetsDetector__ctor_m4AEEC0EBF67469344098FF87A216AC35B67DCEC5 (void);
+// 0x00000030 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::ChangeTrackedTargetTypeHead()
+extern void SolverTrackedTargetType_ChangeTrackedTargetTypeHead_m2B0CD7B51F5FA879B77DCDD61DEB5D9C63E7A037 (void);
+// 0x00000031 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::ChangeTrackedTargetTypeHandJoint()
+extern void SolverTrackedTargetType_ChangeTrackedTargetTypeHandJoint_m4B00304A18536F7663D2657FC0D960D1100754B5 (void);
+// 0x00000032 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::.ctor()
+extern void SolverTrackedTargetType__ctor_m8CC435EED303E982EE5530B33180A75965B19D15 (void);
+// 0x00000033 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::OpenSystemKeyboard()
+extern void SystemKeyboardExample_OpenSystemKeyboard_m9A274FD549E28BEAA0E4A682FE19F0541CDEA268 (void);
+// 0x00000034 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::Start()
+extern void SystemKeyboardExample_Start_mEDB82595CBD1EDC4100B67BADA42EFBA88AFEDEB (void);
+// 0x00000035 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::Update()
+extern void SystemKeyboardExample_Update_m3D734AF77B5A97ACF956F756F563AD4A1740AE63 (void);
+// 0x00000036 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::.ctor()
+extern void SystemKeyboardExample__ctor_mE654DE87AF0D219838BFA86E424ED1A7E4D6A60D (void);
+// 0x00000037 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::<Start>b__5_0()
+extern void SystemKeyboardExample_U3CStartU3Eb__5_0_m04C02D511FF57D43D8C1362B68EA608FECCE6496 (void);
+// 0x00000038 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::<Start>b__5_1()
+extern void SystemKeyboardExample_U3CStartU3Eb__5_1_m18421107B564733330B6E9EB2B8C2CE3332C4BCB (void);
+// 0x00000039 System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::get_DistanceThreshold()
+extern void TetheredPlacement_get_DistanceThreshold_m62793D2B63C9BDE84005340E9CCC9E339CA1DAF3 (void);
+// 0x0000003A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::set_DistanceThreshold(System.Single)
+extern void TetheredPlacement_set_DistanceThreshold_mD3A7F297641ABDE5241779718A49D04D8C58A9F3 (void);
+// 0x0000003B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::Start()
+extern void TetheredPlacement_Start_m6CACD480BBE24C0EB87A6E89715F20893DD5AAE8 (void);
+// 0x0000003C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::LateUpdate()
+extern void TetheredPlacement_LateUpdate_m2B4BE1BD4E712C73D57EED7018B72DB1CC99B124 (void);
+// 0x0000003D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::LockSpawnPoint()
+extern void TetheredPlacement_LockSpawnPoint_mA32ABA5BBD3753BB351C15CF983B486EC5518236 (void);
+// 0x0000003E System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::.ctor()
+extern void TetheredPlacement__ctor_mDD6A080D7A8DF6DC83BD6C7C89CF27CF289CFE09 (void);
+// 0x0000003F System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::Awake()
+extern void ToggleBoundingBox_Awake_m20C0BB56F14913BCB69B995A4A2D6E8508802224 (void);
+// 0x00000040 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::ToggleBoundingBoxActiveState()
+extern void ToggleBoundingBox_ToggleBoundingBoxActiveState_m4CA2880B8D2C11ED0EFDD0C9F38ACF6D70B35977 (void);
+// 0x00000041 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::.ctor()
+extern void ToggleBoundingBox__ctor_mF49E02C24C50FB0472BBBD80B9A6E247BC036D11 (void);
+// 0x00000042 System.Void MRTK.Tutorials.GettingStarted.DirectionalIndicatorController::OnBecameInvisible()
+extern void DirectionalIndicatorController_OnBecameInvisible_m0E4A338FC4C70E296D1B8286AA2FD9E833D947C2 (void);
+// 0x00000043 System.Void MRTK.Tutorials.GettingStarted.DirectionalIndicatorController::.ctor()
+extern void DirectionalIndicatorController__ctor_mD5EA1948C4529FAFD1E496942ADAFBEC7E4A8018 (void);
+// 0x00000044 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::set_IsPunEnabled(System.Boolean)
+extern void ExplodeViewController_set_IsPunEnabled_mF24170F7F9A608F7414FFF2ABF39EE706BC434F5 (void);
+// 0x00000045 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::Start()
+extern void ExplodeViewController_Start_mE07825796104C61B74ED0AD2D5A5CC38E0BAAE6D (void);
+// 0x00000046 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::Update()
+extern void ExplodeViewController_Update_mC1FADA194292F3EBAE4E56B1AE64EB407E87F2F8 (void);
+// 0x00000047 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::ToggleExplodedView()
+extern void ExplodeViewController_ToggleExplodedView_m74189DE87897AB5232FA72B72753903F85952972 (void);
+// 0x00000048 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::Toggle()
+extern void ExplodeViewController_Toggle_m321B6176A1D390111076B1919CC2E44D6DB7E5E2 (void);
+// 0x00000049 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::add_OnToggleExplodedView(MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate)
+extern void ExplodeViewController_add_OnToggleExplodedView_mA25D0A8E94652AC021B35E5C2591EFB4A65EFAE0 (void);
+// 0x0000004A System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::remove_OnToggleExplodedView(MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate)
+extern void ExplodeViewController_remove_OnToggleExplodedView_mF561824B96EAA8FD7770BEA6265349C3A65B8ECA (void);
+// 0x0000004B System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::.ctor()
+extern void ExplodeViewController__ctor_mE72637A87DA07F869CC7C9FD74591AE0C8F60176 (void);
+// 0x0000004C System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExplodeViewControllerDelegate__ctor_m6DFCEE099C96781241186B1537B313641CC3A8AB (void);
+// 0x0000004D System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::Invoke()
+extern void ExplodeViewControllerDelegate_Invoke_mEC016D4928ADCA613702B28C1E3378F7EC29B58C (void);
+// 0x0000004E System.IAsyncResult MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void ExplodeViewControllerDelegate_BeginInvoke_m458C786F225088793798F9A79882A606822BD0B9 (void);
+// 0x0000004F System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::EndInvoke(System.IAsyncResult)
+extern void ExplodeViewControllerDelegate_EndInvoke_m1190D2F43012408A716B9FC790DEB913A85D9476 (void);
+// 0x00000050 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::set_IsPunEnabled(System.Boolean)
+extern void PartAssemblyController_set_IsPunEnabled_m87E32D7952387591F37EC578D7850CCF1CCE4D55 (void);
+// 0x00000051 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::Start()
+extern void PartAssemblyController_Start_m76EEAA396C555EFAC8E6EA60B32B1E7380570CE7 (void);
+// 0x00000052 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::SetPlacement()
+extern void PartAssemblyController_SetPlacement_mB6BDE1A16F74DF3B4950483F7C58E3201B0A0851 (void);
+// 0x00000053 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::Set()
+extern void PartAssemblyController_Set_m77CC9BC1F649F4F08C89FD060E2C74C4F45C91FD (void);
+// 0x00000054 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::ResetPlacement()
+extern void PartAssemblyController_ResetPlacement_m7FA91500780C316EBF560CECD7078E559460ACD0 (void);
+// 0x00000055 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::Reset()
+extern void PartAssemblyController_Reset_m129940529723E9498D4E5035FB917610DA5C8981 (void);
+// 0x00000056 System.Collections.IEnumerator MRTK.Tutorials.GettingStarted.PartAssemblyController::CheckPlacement()
+extern void PartAssemblyController_CheckPlacement_m058EC3FBCB6313D9C85FF551A4831601805F5A4D (void);
+// 0x00000057 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::add_OnResetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_add_OnResetPlacement_m1B5F77146056299BFF14210549A8A71139406319 (void);
+// 0x00000058 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::remove_OnResetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_remove_OnResetPlacement_mDDD37DC93CE99FCE605DFCB9CBC37413364E0D03 (void);
+// 0x00000059 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::add_OnSetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_add_OnSetPlacement_m5B9ED392DAD16C5B23E31DDEF213CFC470C8D1B6 (void);
+// 0x0000005A System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::remove_OnSetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_remove_OnSetPlacement_mA87246A60289C2E7B03E07D5248B7FFE9E533E3B (void);
+// 0x0000005B System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::.ctor()
+extern void PartAssemblyController__ctor_m43D020771B20D09433D17616C90F0D19569F9D9E (void);
+// 0x0000005C System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::.ctor(System.Object,System.IntPtr)
+extern void PartAssemblyControllerDelegate__ctor_m1B455F877BBF4D8B34BAA0778ABFA1B0C8FB3C87 (void);
+// 0x0000005D System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::Invoke()
+extern void PartAssemblyControllerDelegate_Invoke_m35EC047435BEF3AC833FE7F6FDED12C1D2FAF2F9 (void);
+// 0x0000005E System.IAsyncResult MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void PartAssemblyControllerDelegate_BeginInvoke_mE2B0F86102E0D5E6BCD5ADDF6FE25CC9FC8A06D2 (void);
+// 0x0000005F System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::EndInvoke(System.IAsyncResult)
+extern void PartAssemblyControllerDelegate_EndInvoke_m3BC4B8B7B165CE27C98FCB26D91E4E7004F5DA92 (void);
+// 0x00000060 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::.ctor(System.Int32)
+extern void U3CCheckPlacementU3Ed__25__ctor_m1AE9DAAD6457E2BA3C8AF018FC38B348AEEAFD35 (void);
+// 0x00000061 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.IDisposable.Dispose()
+extern void U3CCheckPlacementU3Ed__25_System_IDisposable_Dispose_m5F0CAD7B8EEB902CEC60BA6283E5D2176899ECD0 (void);
+// 0x00000062 System.Boolean MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::MoveNext()
+extern void U3CCheckPlacementU3Ed__25_MoveNext_mDF7F144AFC4007613EFED9BAC836382AE491AD0A (void);
+// 0x00000063 System.Object MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckPlacementU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA2770AE4D2AC80980A1982783D11A2A481D1F5AD (void);
+// 0x00000064 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.Collections.IEnumerator.Reset()
+extern void U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_Reset_m3B06BF13F7C5A5FD0544E0A77EF07BF84BEB6237 (void);
+// 0x00000065 System.Object MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_get_Current_mF23A2B08C5CAD169D0663319DCDF005B7BF30371 (void);
+// 0x00000066 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::set_IsPunEnabled(System.Boolean)
+extern void PlacementHintsController_set_IsPunEnabled_m3F5768D83A150962864A1DF4E4A041A75E006B00 (void);
+// 0x00000067 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::Start()
+extern void PlacementHintsController_Start_mA284074B6E1D6E5C2EFEE25ED73B92718FD44DA5 (void);
+// 0x00000068 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::TogglePlacementHints()
+extern void PlacementHintsController_TogglePlacementHints_mC6E69154176B5D87ECC700CC21DDF3AE3B79F0A9 (void);
+// 0x00000069 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::Toggle()
+extern void PlacementHintsController_Toggle_mED247D0E903D8499BE48BC9C0DF2EC3B94F3494B (void);
+// 0x0000006A System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::add_OnTogglePlacementHints(MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate)
+extern void PlacementHintsController_add_OnTogglePlacementHints_m74DE84CC6DD60CCD720BFB6797EFA9C145A040D8 (void);
+// 0x0000006B System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::remove_OnTogglePlacementHints(MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate)
+extern void PlacementHintsController_remove_OnTogglePlacementHints_m4DD9666380C389D70F6B9B9DA474147403E890E9 (void);
+// 0x0000006C System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::.ctor()
+extern void PlacementHintsController__ctor_m63F5AE600226FB6BEACE406120A542B3EB796634 (void);
+// 0x0000006D System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::.ctor(System.Object,System.IntPtr)
+extern void PlacementHintsControllerDelegate__ctor_mC6033B0A83C28817C35AC67DB8440C7B75CA605B (void);
+// 0x0000006E System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::Invoke()
+extern void PlacementHintsControllerDelegate_Invoke_mD8415531C38108E1B7B41AB3C5BE9ED938DE5BAA (void);
+// 0x0000006F System.IAsyncResult MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void PlacementHintsControllerDelegate_BeginInvoke_m729BAD5B777CAC07017B397546C8485D026C1672 (void);
+// 0x00000070 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::EndInvoke(System.IAsyncResult)
+extern void PlacementHintsControllerDelegate_EndInvoke_m5245DC13168B9F203E7495622C99EA9C6EC60327 (void);
+static Il2CppMethodPointer s_methodPointers[112] = 
+{
+	GestureTester_OnEnable_m0140D4F607D27D42F445714D070CC7EADA275E24,
+	GestureTester_OnGestureStarted_mC5EAB69C8E45DEAADDEDE6AFF002541DEA567EF4,
+	GestureTester_OnGestureUpdated_m347798A3925B8621FFC2001AB596113DD1126FB9,
+	GestureTester_OnGestureUpdated_m2EA610219C9B8E64FA4881A0047B711EE938D3C9,
+	GestureTester_OnGestureCompleted_m59097EC727BDF7D16BD4613D13602F7EAF071A6C,
+	GestureTester_OnGestureCompleted_mF46CC248E670E08FAFC86FE6B94E2A488F179F4B,
+	GestureTester_OnGestureCanceled_m3A69BCC0830AA58A442D7F21423093C18ACE70BF,
+	GestureTester_SetIndicator_mC10E281F42604E9478C157E2E1D6A10045789FDA,
+	GestureTester_SetIndicator_mCE66488AB17DA7410AD184940079B68B013EDD63,
+	GestureTester_ShowRails_m503612C0788C264B5250059F23F4F267F6662C78,
+	GestureTester_HideRails_mEF63845796950C93EF3A59BB7E9D9EB6B82192B9,
+	GestureTester__ctor_mCA9059AE04A957A48F5E848BB37BC4FB1A5AD782,
+	GrabTouchExample_Awake_m193BA2448772C129BA391D7666A5373CA98EAD17,
+	GrabTouchExample_OnInputDown_m417FCADFE22A4077392D9BA739D2512F10B07082,
+	GrabTouchExample_OnInputUp_mE45E387F4A170A41B903F55FD919907F7B565729,
+	GrabTouchExample_OnInputPressed_mF4E7F3B6EC150A2F545D9A48250766D6C437B103,
+	GrabTouchExample_OnPositionInputChanged_m3EE2FA62C353397B71838DBD27177D96683AA8BF,
+	GrabTouchExample_OnTouchCompleted_m3406627D2B847B7C11E69FE1FC865FF0883100ED,
+	GrabTouchExample_OnTouchStarted_m268297151E87C0A7610F699226A85D9C482DB8B7,
+	GrabTouchExample_OnTouchUpdated_m2E31C64A83F0D62F77FDD54E17E91A277589FE17,
+	GrabTouchExample__ctor_m6FFF0E748673903DFA2072F856F569ECDC1BBF6A,
+	LeapMotionOrientationDisplay__ctor_mC9E9FDEE213D10636277EF57AAA73C69CA0A9DA1,
+	RotateWithPan_OnEnable_mFA342F4128FB0B7B1FBB2AF91ACAD08BF1B34AA1,
+	RotateWithPan_OnDisable_m606981F1E173DE557743B647BAFCA2F3E2404600,
+	RotateWithPan_OnPanEnded_mE32C84EB617376128A1DAC0CC8DDB93DB07E9771,
+	RotateWithPan_OnPanning_mA4F14593B410699C3C57A98E9257AE01D30347DC,
+	RotateWithPan_OnPanStarted_m9287DA1BA0DCCE934FFB17A57F4325B0F4D84F92,
+	RotateWithPan__ctor_mA18E5BAD40CDA091610D697BE9FD1C8636A68EDE,
+	DebugTextOutput_SetTextWithTimestamp_mDF010EB22994E08515BD0D7168C5FD8A2A79D6C0,
+	DebugTextOutput__ctor_mBA36C4F1E296266F1F198C5A87A3F2EA9AE9E201,
+	DemoTouchButton_Awake_m1AF45B8901FCF6F00A529AEFCAE5506AE7555E02,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerClicked_m38106C4F3F2F23FFAABB56CF0766EF297F233146,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDown_m04FED0E4EE50E1AB6CC2D0CCAA9D71AF60AA81E2,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDragged_m26570F82DA89EF0030C2D3479EC625EEA95D168F,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerUp_mBCA590EFE44F513F5E06F17D3ECD05DB64C421B2,
+	DemoTouchButton__ctor_m8C7E042730F36A15DCA22444DC001BC632B961CF,
+	HandInteractionTouch_Start_mEA26CFA5F9C0670533A9D81F9599ACAC2E884FBF,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchCompleted_m47DC3546E726537C9A52E0BF4AA9A24B7A83E0BB,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchStarted_m0525055513F5ACD2DD7A2595F9288818A81D7881,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mEA0B73C770EB3313E0F6F8B949086B2670C3BC2E,
+	HandInteractionTouch__ctor_m95795EEB965D94E5EE65E4F18F8D1ADE174F6E10,
+	HandInteractionTouchRotate_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_m23E672CF5654FB271122EB248DE6EEE7480CE0E9,
+	HandInteractionTouchRotate__ctor_m04F2A1112ABDEFB18CC1D8CB81232B06D7AD8622,
+	LaunchUri_Launch_mC659D1BDD2E134A84AA1791D4D44C87A2A901962,
+	LaunchUri__ctor_m32487E2888A148FCAD613C50117270B1293E3431,
+	LeapCoreAssetsDetector_Start_mC7AE99208F21C227403657D0886ACA11D32C2732,
+	LeapCoreAssetsDetector__ctor_m4AEEC0EBF67469344098FF87A216AC35B67DCEC5,
+	SolverTrackedTargetType_ChangeTrackedTargetTypeHead_m2B0CD7B51F5FA879B77DCDD61DEB5D9C63E7A037,
+	SolverTrackedTargetType_ChangeTrackedTargetTypeHandJoint_m4B00304A18536F7663D2657FC0D960D1100754B5,
+	SolverTrackedTargetType__ctor_m8CC435EED303E982EE5530B33180A75965B19D15,
+	SystemKeyboardExample_OpenSystemKeyboard_m9A274FD549E28BEAA0E4A682FE19F0541CDEA268,
+	SystemKeyboardExample_Start_mEDB82595CBD1EDC4100B67BADA42EFBA88AFEDEB,
+	SystemKeyboardExample_Update_m3D734AF77B5A97ACF956F756F563AD4A1740AE63,
+	SystemKeyboardExample__ctor_mE654DE87AF0D219838BFA86E424ED1A7E4D6A60D,
+	SystemKeyboardExample_U3CStartU3Eb__5_0_m04C02D511FF57D43D8C1362B68EA608FECCE6496,
+	SystemKeyboardExample_U3CStartU3Eb__5_1_m18421107B564733330B6E9EB2B8C2CE3332C4BCB,
+	TetheredPlacement_get_DistanceThreshold_m62793D2B63C9BDE84005340E9CCC9E339CA1DAF3,
+	TetheredPlacement_set_DistanceThreshold_mD3A7F297641ABDE5241779718A49D04D8C58A9F3,
+	TetheredPlacement_Start_m6CACD480BBE24C0EB87A6E89715F20893DD5AAE8,
+	TetheredPlacement_LateUpdate_m2B4BE1BD4E712C73D57EED7018B72DB1CC99B124,
+	TetheredPlacement_LockSpawnPoint_mA32ABA5BBD3753BB351C15CF983B486EC5518236,
+	TetheredPlacement__ctor_mDD6A080D7A8DF6DC83BD6C7C89CF27CF289CFE09,
+	ToggleBoundingBox_Awake_m20C0BB56F14913BCB69B995A4A2D6E8508802224,
+	ToggleBoundingBox_ToggleBoundingBoxActiveState_m4CA2880B8D2C11ED0EFDD0C9F38ACF6D70B35977,
+	ToggleBoundingBox__ctor_mF49E02C24C50FB0472BBBD80B9A6E247BC036D11,
+	DirectionalIndicatorController_OnBecameInvisible_m0E4A338FC4C70E296D1B8286AA2FD9E833D947C2,
+	DirectionalIndicatorController__ctor_mD5EA1948C4529FAFD1E496942ADAFBEC7E4A8018,
+	ExplodeViewController_set_IsPunEnabled_mF24170F7F9A608F7414FFF2ABF39EE706BC434F5,
+	ExplodeViewController_Start_mE07825796104C61B74ED0AD2D5A5CC38E0BAAE6D,
+	ExplodeViewController_Update_mC1FADA194292F3EBAE4E56B1AE64EB407E87F2F8,
+	ExplodeViewController_ToggleExplodedView_m74189DE87897AB5232FA72B72753903F85952972,
+	ExplodeViewController_Toggle_m321B6176A1D390111076B1919CC2E44D6DB7E5E2,
+	ExplodeViewController_add_OnToggleExplodedView_mA25D0A8E94652AC021B35E5C2591EFB4A65EFAE0,
+	ExplodeViewController_remove_OnToggleExplodedView_mF561824B96EAA8FD7770BEA6265349C3A65B8ECA,
+	ExplodeViewController__ctor_mE72637A87DA07F869CC7C9FD74591AE0C8F60176,
+	ExplodeViewControllerDelegate__ctor_m6DFCEE099C96781241186B1537B313641CC3A8AB,
+	ExplodeViewControllerDelegate_Invoke_mEC016D4928ADCA613702B28C1E3378F7EC29B58C,
+	ExplodeViewControllerDelegate_BeginInvoke_m458C786F225088793798F9A79882A606822BD0B9,
+	ExplodeViewControllerDelegate_EndInvoke_m1190D2F43012408A716B9FC790DEB913A85D9476,
+	PartAssemblyController_set_IsPunEnabled_m87E32D7952387591F37EC578D7850CCF1CCE4D55,
+	PartAssemblyController_Start_m76EEAA396C555EFAC8E6EA60B32B1E7380570CE7,
+	PartAssemblyController_SetPlacement_mB6BDE1A16F74DF3B4950483F7C58E3201B0A0851,
+	PartAssemblyController_Set_m77CC9BC1F649F4F08C89FD060E2C74C4F45C91FD,
+	PartAssemblyController_ResetPlacement_m7FA91500780C316EBF560CECD7078E559460ACD0,
+	PartAssemblyController_Reset_m129940529723E9498D4E5035FB917610DA5C8981,
+	PartAssemblyController_CheckPlacement_m058EC3FBCB6313D9C85FF551A4831601805F5A4D,
+	PartAssemblyController_add_OnResetPlacement_m1B5F77146056299BFF14210549A8A71139406319,
+	PartAssemblyController_remove_OnResetPlacement_mDDD37DC93CE99FCE605DFCB9CBC37413364E0D03,
+	PartAssemblyController_add_OnSetPlacement_m5B9ED392DAD16C5B23E31DDEF213CFC470C8D1B6,
+	PartAssemblyController_remove_OnSetPlacement_mA87246A60289C2E7B03E07D5248B7FFE9E533E3B,
+	PartAssemblyController__ctor_m43D020771B20D09433D17616C90F0D19569F9D9E,
+	PartAssemblyControllerDelegate__ctor_m1B455F877BBF4D8B34BAA0778ABFA1B0C8FB3C87,
+	PartAssemblyControllerDelegate_Invoke_m35EC047435BEF3AC833FE7F6FDED12C1D2FAF2F9,
+	PartAssemblyControllerDelegate_BeginInvoke_mE2B0F86102E0D5E6BCD5ADDF6FE25CC9FC8A06D2,
+	PartAssemblyControllerDelegate_EndInvoke_m3BC4B8B7B165CE27C98FCB26D91E4E7004F5DA92,
+	U3CCheckPlacementU3Ed__25__ctor_m1AE9DAAD6457E2BA3C8AF018FC38B348AEEAFD35,
+	U3CCheckPlacementU3Ed__25_System_IDisposable_Dispose_m5F0CAD7B8EEB902CEC60BA6283E5D2176899ECD0,
+	U3CCheckPlacementU3Ed__25_MoveNext_mDF7F144AFC4007613EFED9BAC836382AE491AD0A,
+	U3CCheckPlacementU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA2770AE4D2AC80980A1982783D11A2A481D1F5AD,
+	U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_Reset_m3B06BF13F7C5A5FD0544E0A77EF07BF84BEB6237,
+	U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_get_Current_mF23A2B08C5CAD169D0663319DCDF005B7BF30371,
+	PlacementHintsController_set_IsPunEnabled_m3F5768D83A150962864A1DF4E4A041A75E006B00,
+	PlacementHintsController_Start_mA284074B6E1D6E5C2EFEE25ED73B92718FD44DA5,
+	PlacementHintsController_TogglePlacementHints_mC6E69154176B5D87ECC700CC21DDF3AE3B79F0A9,
+	PlacementHintsController_Toggle_mED247D0E903D8499BE48BC9C0DF2EC3B94F3494B,
+	PlacementHintsController_add_OnTogglePlacementHints_m74DE84CC6DD60CCD720BFB6797EFA9C145A040D8,
+	PlacementHintsController_remove_OnTogglePlacementHints_m4DD9666380C389D70F6B9B9DA474147403E890E9,
+	PlacementHintsController__ctor_m63F5AE600226FB6BEACE406120A542B3EB796634,
+	PlacementHintsControllerDelegate__ctor_mC6033B0A83C28817C35AC67DB8440C7B75CA605B,
+	PlacementHintsControllerDelegate_Invoke_mD8415531C38108E1B7B41AB3C5BE9ED938DE5BAA,
+	PlacementHintsControllerDelegate_BeginInvoke_m729BAD5B777CAC07017B397546C8485D026C1672,
+	PlacementHintsControllerDelegate_EndInvoke_m5245DC13168B9F203E7495622C99EA9C6EC60327,
+};
+static const int32_t s_InvokerIndices[112] = 
+{
+	5103,
+	4161,
+	4161,
+	4161,
+	4161,
+	4161,
+	4161,
+	1288,
+	863,
+	4240,
+	5103,
+	5103,
+	5103,
+	4161,
+	4161,
+	4161,
+	4161,
+	4161,
+	4161,
+	4161,
+	5103,
+	5103,
+	5103,
+	5103,
+	4161,
+	4161,
+	4161,
+	5103,
+	4161,
+	5103,
+	5103,
+	4161,
+	4161,
+	4161,
+	4161,
+	5103,
+	5103,
+	4161,
+	4161,
+	4161,
+	5103,
+	4161,
+	5103,
+	4161,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5057,
+	4201,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	4050,
+	5103,
+	5103,
+	5103,
+	5103,
+	4161,
+	4161,
+	5103,
+	2320,
+	5103,
+	1860,
+	4161,
+	4050,
+	5103,
+	5103,
+	5103,
+	5103,
+	5103,
+	5013,
+	4161,
+	4161,
+	4161,
+	4161,
+	5103,
+	2320,
+	5103,
+	1860,
+	4161,
+	4125,
+	5103,
+	4905,
+	5013,
+	5103,
+	5013,
+	4050,
+	5103,
+	5103,
+	5103,
+	4161,
+	4161,
+	5103,
+	2320,
+	5103,
+	1860,
+	4161,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	112,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
